@@ -1,0 +1,36 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <ProjectGuid>{FC30707E-F017-4E44-B98D-F04DF2C6008D}</ProjectGuid>
+    </PropertyGroup>
+    <ItemGroup>
+        <Projects Include="Servidor\Vcl\DelphiRestFullDemo.dproj">
+            <Dependencies/>
+        </Projects>
+    </ItemGroup>
+    <ProjectExtensions>
+        <Borland.Personality>Default.Personality.12</Borland.Personality>
+        <Borland.ProjectType/>
+        <BorlandProject>
+            <Default.Personality/>
+        </BorlandProject>
+    </ProjectExtensions>
+    <Target Name="DelphiRestFullDemo">
+        <MSBuild Projects="Servidor\Vcl\DelphiRestFullDemo.dproj"/>
+    </Target>
+    <Target Name="DelphiRestFullDemo:Clean">
+        <MSBuild Projects="Servidor\Vcl\DelphiRestFullDemo.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="DelphiRestFullDemo:Make">
+        <MSBuild Projects="Servidor\Vcl\DelphiRestFullDemo.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Build">
+        <CallTarget Targets="DelphiRestFullDemo"/>
+    </Target>
+    <Target Name="Clean">
+        <CallTarget Targets="DelphiRestFullDemo:Clean"/>
+    </Target>
+    <Target Name="Make">
+        <CallTarget Targets="DelphiRestFullDemo:Make"/>
+    </Target>
+    <Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
+</Project>

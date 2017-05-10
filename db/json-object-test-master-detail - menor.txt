@@ -1,0 +1,52 @@
+http://localhost:8080/datasnap/rest/TSM/Contatos
+--------------------------------------------------------------------
+Inclusão:
+------------
+{
+   "nome":"NOME CONTATO 01",
+   "empresa":"EMPRESA 01",
+   "telefones":
+   {
+      "listHelper": [2],
+      "items":
+      [
+       {"dDD":"11", "numero":"11111111",  "tipo":"RESIDENCIAL" }, 
+       {"dDD":"12", "numero":"222222222", "tipo":"CELULAR"     }
+      ]
+   },
+   "emails":
+   {   
+      "listHelper":[2],
+      "items":
+      [
+       {"email":"email1@gmail.com",  "tipo":"COMERCIAL"   },
+       {"email":"email2@gmail.com",  "tipo":"PESSOAL"     }
+      ]
+   }
+}
+
+Alteração:
+------------
+{
+   "Codigo":3,
+   "nome":"ELLEM CARNEIRO",
+   "empresa":"VIACONECT",
+   "telefones":
+   {
+      "listHelper": [2],
+      "items":
+      [
+       {"dDD":"55", "numero":"55555555",  "tipo":"Residencial 5" }, 
+       {"dDD":"66", "numero":"66666666", "tipo":"Celular 6"     }
+      ]
+   },
+   "emails":
+   {   
+      "listHelper":[2],
+      "items":
+      [
+       {"email":"email5@gmail.com",  "tipo":"Comercial 5"   },
+       {"email":"email6@gmail.com",  "tipo":"Pessoal 5"     }
+      ]
+   }
+}

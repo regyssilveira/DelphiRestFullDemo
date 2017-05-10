@@ -1,0 +1,68 @@
+http://localhost:8080/datasnap/rest/TSM/Contatos
+--------------------------------------------------------------------
+{
+   "nome":"NOME CONTATO 01",
+   "empresa":"EMPRESA 01",
+   "telefones":
+   {
+      "listHelper": [9],
+      "items":
+      [
+       {"dDD":"11", "numero":"11111111",  "tipo":"RESIDENCIAL" }, 
+       {"dDD":"12", "numero":"222222222", "tipo":"CELULAR"     },
+       {"dDD":"13", "numero":"333333333", "tipo":"CELULAR"     },
+       {"dDD":"14", "numero":"444444444", "tipo":"CELULAR"     },
+       {"dDD":"15", "numero":"555555555", "tipo":"CELULAR"     },
+       {"dDD":"16", "numero":"666666666", "tipo":"CELULAR"     },
+       {"dDD":"17", "numero":"777777777", "tipo":"CELULAR"     },
+       {"dDD":"18", "numero":"888888888", "tipo":"CELULAR"     },
+       {"dDD":"19", "numero":"99999999",  "tipo":"COMERCIAL"   }
+      ]
+   },
+   "emails":
+   {   
+      "listHelper":[10],
+      "items":
+      [
+       {"email":"email1@gmail.com",  "tipo":"COMERCIAL"   },
+       {"email":"email2@gmail.com",  "tipo":"PESSOAL"     },
+       {"email":"email3@gmail.com",  "tipo":"EMPRESARIAL" },
+       {"email":"email4@gmail.com",  "tipo":"COMERCIAL"   },
+       {"email":"email5@gmail.com",  "tipo":"COMERCIAL"   },
+       {"email":"email6@gmail.com",  "tipo":"PESSOAL"     },
+       {"email":"email7@gmail.com",  "tipo":"COMERCIAL"   },
+       {"email":"email8@gmail.com",  "tipo":"INFORMATIVO" },
+       {"email":"email9@gmail.com",  "tipo":"COMERCIAL"   },
+       {"email":"email10@gmail.com", "tipo":"PESSOAL"     }
+      ]
+   }
+}
+
+--------------------------------------------------------------------
+{
+   "nome":"NOME CONTATO 02",
+   "empresa":"EMPRESA 01",
+   "telefones":
+   {
+      "listHelper": [3],
+      "items":
+      [
+       {"dDD":"11", "numero":"11111111",  "tipo":"RESIDENCIAL" }, 
+       {"dDD":"12", "numero":"222222222", "tipo":"CELULAR"     },
+       {"dDD":"19", "numero":"99999999",  "tipo":"COMERCIAL"   }
+      ]
+   },
+   "emails":
+   {   
+      "listHelper":[4],
+      "items":
+      [
+       {"email":"email1@gmail.com",  "tipo":"COMERCIAL"   },
+       {"email":"email2@gmail.com",  "tipo":"PESSOAL"     },
+       {"email":"email3@gmail.com",  "tipo":"EMPRESARIAL" },
+       {"email":"email10@gmail.com", "tipo":"PESSOAL"     }
+      ]
+   }
+}
+--------------------------------------------------------------------
+{"Id":1, "Nome":"Silva e Souza"}
